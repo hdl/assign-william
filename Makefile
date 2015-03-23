@@ -7,3 +7,5 @@ problem1:
 
 problem2:
 	gcc linpack.c -o problem2 -pg
+problem3:
+	gcc linpack.c -o problem3 -fprofile-arcs -ftest-coverage -O2
