@@ -9,6 +9,8 @@ problem2:
 	gcc linpack.c -o problem2 -pg
 problem3:
 	gcc linpack.c -o problem3 -fprofile-arcs -ftest-coverage -O2
+problem4:
+	gcc linpackopt.c -o problem4
 problem5:
 	gcc -o u2.out linpack-u2.c
 	gcc -o u4.out linpack.c
